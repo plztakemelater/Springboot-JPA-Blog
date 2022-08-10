@@ -13,7 +13,8 @@ public class BlogController {
 	//http://localhost:8080/test/hello
 	@GetMapping("/test/hello")
 	public String hello() {
-		return "<h1>helloWorld</h1>"; 
+		
+		return "hello world"; 
 	}
 
 }
